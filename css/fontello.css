@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?19305510');
+  src: url('../font/fontello.eot?19305510#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?19305510') format('woff'),
+       url('../font/fontello.ttf?19305510') format('truetype'),
+       url('../font/fontello.svg?19305510#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?19305510#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="music-"]:before, [class*=" music-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.music-end-barline:before { content: '\e800'; } /* '' */
+.music-double-barline:before { content: '\e801'; } /* '' */
+.music-tie-up:before { content: '\e802'; } /* '' */
+.music-slur-up:before { content: '\e803'; } /* '' */
+.music-ligature-up:before { content: '\e804'; } /* '' */
+.music-G-clef:before { content: '\e805'; } /* '' */
+.music-begin-barline:before { content: '\e806'; } /* '' */
+.music-begin-double-barline:before { content: '\e807'; } /* '' */
+.music-tie-down:before { content: '\e808'; } /* '' */
+.music-slur-down:before { content: '\e809'; } /* '' */
+.music-ligature-down:before { content: '\e80a'; } /* '' */
+.music-dotted-barline:before { content: '\e80b'; } /* '' */
+.music-end-bold-double-barline:before { content: '\e80c'; } /* '' */
+.music-quaver-A-low:before { content: '\e80d'; } /* '' */
+.music-common-time:before { content: '\e80e'; } /* '' */
+.music-2-2:before { content: '\e80f'; } /* '' */
+.music-2-4:before { content: '\e810'; } /* '' */
+.music-3-4:before { content: '\e811'; } /* '' */
+.music-4-4:before { content: '\e812'; } /* '' */
+.music-3-2:before { content: '\e813'; } /* '' */
+.music-6-8:before { content: '\e814'; } /* '' */
+.music-alla-breve:before { content: '\e815'; } /* '' */
+.music-semiquaver-rest:before { content: '\e816'; } /* '' */
+.music-quaver-rest:before { content: '\e817'; } /* '' */
+.music-quarter-rest:before { content: '\e818'; } /* '' */
+.music-half-rest:before { content: '\e819'; } /* '' */
+.music-whole-rest:before { content: '\e81a'; } /* '' */
+.music-fermata:before { content: '\e81b'; } /* '' */
+.music-fermata-up:before { content: '\e81c'; } /* '' */
+.music-guitar-grid:before { content: '\e81d'; } /* '' */
+.music-quaver-B-low:before { content: '\e81e'; } /* '' */
+.music-quaver-C-low:before { content: '\e81f'; } /* '' */
+.music-quaver-D-low:before { content: '\e820'; } /* '' */
+.music-quaver-E-low:before { content: '\e821'; } /* '' */
+.music-quaver-F-low-1:before { content: '\e822'; } /* '' */
+.music-quaver-G:before { content: '\e823'; } /* '' */
+.music-quaver-A:before { content: '\e824'; } /* '' */
+.music-quaver-B:before { content: '\e825'; } /* '' */
+.music-quaver-C:before { content: '\e826'; } /* '' */
+.music-quaver-D:before { content: '\e827'; } /* '' */
+.music-quaver-E:before { content: '\e828'; } /* '' */
+.music-quaver-F:before { content: '\e829'; } /* '' */
+.music-quaver-G-high:before { content: '\e82a'; } /* '' */
+.music-quaver-A-high:before { content: '\e82b'; } /* '' */
+.music-quaver-B-up:before { content: '\e82c'; } /* '' */
+.music-quarter-A-low:before { content: '\e82d'; } /* '' */
+.music-quarter-C-low:before { content: '\e82e'; } /* '' */
+.music-quarter-D-low:before { content: '\e82f'; } /* '' */
+.music-quarter-E-low:before { content: '\e830'; } /* '' */
+.music-quarter-F-low-1:before { content: '\e831'; } /* '' */
+.music-quarter-G:before { content: '\e832'; } /* '' */
+.music-quarter-A:before { content: '\e833'; } /* '' */
+.music-quarter-B:before { content: '\e834'; } /* '' */
+.music-quarter-C:before { content: '\e835'; } /* '' */
+.music-quarter-D:before { content: '\e836'; } /* '' */
+.music-quarter-E:before { content: '\e837'; } /* '' */
+.music-quarter-F:before { content: '\e838'; } /* '' */
+.music-quarter-G-high:before { content: '\e839'; } /* '' */
+.music-quarter-A-high:before { content: '\e83a'; } /* '' */
+.music-quarter-B-up:before { content: '\e83b'; } /* '' */
+.music-half-A-low-1:before { content: '\e83c'; } /* '' */
+.music-half-B-low:before { content: '\e83d'; } /* '' */
+.music-half-C-low:before { content: '\e83e'; } /* '' */
+.music-half-D-low:before { content: '\e83f'; } /* '' */
+.music-half-E-low-1:before { content: '\e840'; } /* '' */
+.music-half-G:before { content: '\e841'; } /* '' */
+.music-half-A:before { content: '\e842'; } /* '' */
+.music-half-B:before { content: '\e843'; } /* '' */
+.music-half-C:before { content: '\e844'; } /* '' */
+.music-half-D:before { content: '\e845'; } /* '' */
+.music-half-E:before { content: '\e846'; } /* '' */
+.music-half-F:before { content: '\e847'; } /* '' */
+.music-half-G-high:before { content: '\e848'; } /* '' */
+.music-half-A-high:before { content: '\e849'; } /* '' */
+.music-half-B-up:before { content: '\e84a'; } /* '' */
+.music-whole-A-low:before { content: '\e84b'; } /* '' */
+.music-whole-B-low:before { content: '\e84c'; } /* '' */
+.music-whole-C-low:before { content: '\e84d'; } /* '' */
+.music-whole-D-low:before { content: '\e84e'; } /* '' */
+.music-whole-E-low:before { content: '\e84f'; } /* '' */
+.music-whole-F-low-1:before { content: '\e850'; } /* '' */
+.music-whole-G:before { content: '\e851'; } /* '' */
+.music-whole-A:before { content: '\e852'; } /* '' */
+.music-whole-B:before { content: '\e853'; } /* '' */
+.music-whole-D:before { content: '\e854'; } /* '' */
+.music-whole-E:before { content: '\e855'; } /* '' */
+.music-whole-F:before { content: '\e856'; } /* '' */
+.music-whole-G-high:before { content: '\e857'; } /* '' */
+.music-whole-A-high:before { content: '\e858'; } /* '' */
+.music-key-signature-GM-1:before { content: '\e859'; } /* '' */
+.music-key-signature-DM:before { content: '\e85a'; } /* '' */
+.music-key-signature-AM:before { content: '\e85b'; } /* '' */
+.music-key-signature-EM:before { content: '\e85c'; } /* '' */
+.music-key-signature-BM:before { content: '\e85d'; } /* '' */
+.music-key-signature-FshM:before { content: '\e85e'; } /* '' */
+.music-key-signature-CshM:before { content: '\e85f'; } /* '' */
+.music-key-signature-FM:before { content: '\e860'; } /* '' */
+.music-key-signature-BbM:before { content: '\e861'; } /* '' */
+.music-key-signature-EbM:before { content: '\e862'; } /* '' */
+.music-key-signature-AbM:before { content: '\e863'; } /* '' */
+.music-key-signature-DbM:before { content: '\e864'; } /* '' */
+.music-key-signature-CbM:before { content: '\e865'; } /* '' */
+.music-F-clef:before { content: '\e866'; } /* '' */
+.music-dot-A-low:before { content: '\e867'; } /* '' */
+.music-dot-B-low:before { content: '\e868'; } /* '' */
+.music-dot-C-low:before { content: '\e869'; } /* '' */
+.music-dot-D-low:before { content: '\e86a'; } /* '' */
+.music-dot-E-low:before { content: '\e86b'; } /* '' */
+.music-dot-F-low:before { content: '\e86c'; } /* '' */
+.music-dot-G:before { content: '\e86d'; } /* '' */
+.music-dot-A:before { content: '\e86e'; } /* '' */
+.music-dot-B:before { content: '\e86f'; } /* '' */
+.music-dot-C-1:before { content: '\e870'; } /* '' */
+.music-dot-D:before { content: '\e871'; } /* '' */
+.music-dot-E:before { content: '\e872'; } /* '' */
+.music-dot-F:before { content: '\e873'; } /* '' */
+.music-dot-G-high:before { content: '\e874'; } /* '' */
+.music-dot-A-high:before { content: '\e875'; } /* '' */
+.music-dot-C:before { content: '\e876'; } /* '' */
+.music-2-quaver-A-low:before { content: '\e877'; } /* '' */
+.music-2-quaver-B-low:before { content: '\e878'; } /* '' */
+.music-2-quaver-C-low:before { content: '\e879'; } /* '' */
+.music-2-quaver-D-low:before { content: '\e87a'; } /* '' */
+.music-2-quaver-E-low:before { content: '\e87b'; } /* '' */
+.music-2-quaver-F-low:before { content: '\e87c'; } /* '' */
+.music-2-quaver-G:before { content: '\e87d'; } /* '' */
+.music-2-quaver-A:before { content: '\e87e'; } /* '' */
+.music-2-quaver-B:before { content: '\e87f'; } /* '' */
+.music-2-quaver-C:before { content: '\e880'; } /* '' */
+.music-2-quaver-D:before { content: '\e881'; } /* '' */
+.music-2-quaver-E:before { content: '\e882'; } /* '' */
+.music-2-quaver-F:before { content: '\e883'; } /* '' */
+.music-2-quaver-G-high:before { content: '\e884'; } /* '' */
+.music-2-quaver-A-high:before { content: '\e885'; } /* '' */
+.music-2-quaver-B-up:before { content: '\e886'; } /* '' */
+.music-sharp-A-low:before { content: '\e887'; } /* '' */
+.music-sharp-B-low:before { content: '\e888'; } /* '' */
+.music-sharp-C-low:before { content: '\e889'; } /* '' */
+.music-sharp-D-low:before { content: '\e88a'; } /* '' */
+.music-sharp-E-low:before { content: '\e88b'; } /* '' */
+.music-sharp-F-low:before { content: '\e88c'; } /* '' */
+.music-sharp-G:before { content: '\e88d'; } /* '' */
+.music-sharp-A:before { content: '\e88e'; } /* '' */
+.music-sharp-B:before { content: '\e88f'; } /* '' */
+.music-sharp-C:before { content: '\e890'; } /* '' */
+.music-sharp-D:before { content: '\e891'; } /* '' */
+.music-sharp-E:before { content: '\e892'; } /* '' */
+.music-sharp-F:before { content: '\e893'; } /* '' */
+.music-sharp-G-high:before { content: '\e894'; } /* '' */
+.music-sharp-A-high:before { content: '\e895'; } /* '' */
+.music-ligature-long-up:before { content: '\e896'; } /* '' */
+.music-flat-A-low:before { content: '\e897'; } /* '' */
+.music-flat-B-low:before { content: '\e898'; } /* '' */
+.music-flat-C-low:before { content: '\e899'; } /* '' */
+.music-flat-D-low:before { content: '\e89a'; } /* '' */
+.music-flat-E-low:before { content: '\e89b'; } /* '' */
+.music-flat-F-low:before { content: '\e89c'; } /* '' */
+.music-flat-G:before { content: '\e89d'; } /* '' */
+.music-flat-A:before { content: '\e89e'; } /* '' */
+.music-flat-B:before { content: '\e89f'; } /* '' */
+.music-flat-D-1:before { content: '\e8a0'; } /* '' */
+.music-flat-D:before { content: '\e8a1'; } /* '' */
+.music-flat-E:before { content: '\e8a2'; } /* '' */
+.music-flat-F:before { content: '\e8a3'; } /* '' */
+.music-flat-G-high:before { content: '\e8a4'; } /* '' */
+.music-flat-A-high:before { content: '\e8a5'; } /* '' */
+.music-ligature-long-down:before { content: '\e8a6'; } /* '' */
+.music-natural-A-low:before { content: '\e8a7'; } /* '' */
+.music-natural-B-low:before { content: '\e8a8'; } /* '' */
+.music-natural-C-low:before { content: '\e8a9'; } /* '' */
+.music-natural-D-low:before { content: '\e8aa'; } /* '' */
+.music-natural-E-low:before { content: '\e8ab'; } /* '' */
+.music-natural-F-low-1:before { content: '\e8ac'; } /* '' */
+.music-natural-G:before { content: '\e8ad'; } /* '' */
+.music-natural-A:before { content: '\e8ae'; } /* '' */
+.music-natural-B:before { content: '\e8af'; } /* '' */
+.music-natural-C:before { content: '\e8b0'; } /* '' */
+.music-natural-D:before { content: '\e8b1'; } /* '' */
+.music-natural-E:before { content: '\e8b2'; } /* '' */
+.music-natural-F:before { content: '\e8b3'; } /* '' */
+.music-natural-G-high:before { content: '\e8b4'; } /* '' */
+.music-natural-A-high:before { content: '\e8b5'; } /* '' */
+.music-C-clef:before { content: '\e8b6'; } /* '' */
+.music-sharp-G-low:before { content: '\e8b7'; } /* '' */
+.music-dot-G-low:before { content: '\e8b8'; } /* '' */
+.music-quarter-C-high:before { content: '\e8b9'; } /* '' */
+.music-whole-D-high-1:before { content: '\e8ba'; } /* '' */
+.music-2-quaver-C-high:before { content: '\e8bb'; } /* '' */
+.music-dot-C-high:before { content: '\e8bc'; } /* '' */
+.music-2-quaver-D-high:before { content: '\e8bd'; } /* '' */
+.music-quaver-G-low:before { content: '\e8be'; } /* '' */
+.music-quarter-G-low:before { content: '\e8bf'; } /* '' */
+.music-whole-D-high:before { content: '\e8c0'; } /* '' */
+.music-whole-F-low:before { content: '\e8c1'; } /* '' */
+.music-whole-G-low:before { content: '\e8c2'; } /* '' */
+.music-half-F-low:before { content: '\e8c3'; } /* '' */
+.music-half-G-low:before { content: '\e8c4'; } /* '' */
+.music-quaver-F-low:before { content: '\e8c5'; } /* '' */
+.music-half-B-high-1:before { content: '\e8c6'; } /* '' */
+.music-half-C-high:before { content: '\e8c7'; } /* '' */
+.music-quaver-B-high:before { content: '\e8c8'; } /* '' */
+.music-quaver-C-high-1:before { content: '\e8c9'; } /* '' */
+.music-quarter-F-low:before { content: '\e8ca'; } /* '' */
+.music-half-B-high:before { content: '\e8cb'; } /* '' */
+.music-quaver-C-high:before { content: '\e8cc'; } /* '' */
+.music-quarter-B-high:before { content: '\e8cd'; } /* '' */
+.music-quarter-D-high:before { content: '\e8ce'; } /* '' */
+.music-natural-F-low:before { content: '\e8cf'; } /* '' */
+.music-key-signature-GbM:before { content: '\e8d0'; } /* '' */
+.music-whole-C-high:before { content: '\e8d1'; } /* '' */
